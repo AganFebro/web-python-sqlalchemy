@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-color: #406343;
+	background-size: cover;
+	background-size: 80%;
+	background-position: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+
+.login{
+	background-color: #F3EFCC;
+	width: 350px;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+	border: 3px solid #000;
+	border-radius: 10px;
+
+	box-shadow: 0 0 10px #000;
+}
+
+
+.login h2{
+	margin: 0 0 20px; 
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+.login .log-pass{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login .log-pass input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .log-pass span{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	padding: 0px;
+	text-transform: capitalize;
+	font-size: 12px;
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.login .log-pass input:focus ~ span,
+.login .log-pass input:valid ~ span{
+	top: -12px;
+	left: 20px;
+	font-size: 15px;
+	background-color: #ffee00;
+	padding: 2px 4px;
+	border: 1px solid #000;
+	border-radius: 5px;
+
+}
+
+.login .log-pass input[type="submit"]{
+	background-color: #ffee00;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	width: 50%;
+	transition: 0.5s;
+}
+
+.login .log-pass input[type="submit"]:hover{
+	width: 100%;
+	background-color: #ffee00;
+	color: #fff;
+}
+
+
+
+.login .log-bt{
+	position:relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login .log-bt input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .log-bt span{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	padding: 0px;
+	text-transform: capitalize;
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.login .log-bt input:focus ~ span,
+.login .log-bt input:valid ~ span{
+	top: -12px;
+	left: 20px;
+	font-size: 12px;
+	background-color: #ffee00;
+	padding: 2px 4px;
+	border: 1px solid #000;
+	border-radius: 5px;
+
+}
+
+.login .log-bt input[type="submit"]{
+	background-color: #ffee00;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	width: 50%;
+	transition: 0.5s;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .log-bt input[type="submit"]:hover{
+	width: 100%;
+	background-color: #ffc400;
+	color: #fff;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+
+.list-group-item{
+	width: 50%;
+}
+
+
+.login .register-bt input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .register-bt span{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	padding: 0px;
+	text-transform: capitalize;
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.login .register-bt input[type="button"]{
+	background-color: #ffee00;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	width: 50%;
+	transition: 0.5s;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.login .register-bt input[type="button"]:hover{
+	width: 100%;
+	background-color: #ffc400;
+	color: #fff;
+	border: 3px solid black;
+	border-radius: 10px;
+}
